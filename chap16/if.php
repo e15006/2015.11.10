@@ -1,0 +1,10 @@
+<?php
+if(date("G")>=18){
+    print"こんばんわ";
+    }elseif(date("G")>=9){
+    print"こんにちわ";
+    }elseif(date("G")>=6){
+        print"おはようございます";
+    }else{
+        print"ねむくないですか";
+    }
